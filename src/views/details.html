@@ -1,0 +1,9 @@
+{% extends './src/views/index.html' %}
+
+{% block reactComponents %}
+	<script src="/public/components/details.js"></script>
+{% endblock %}
+
+{% block body %}
+	{{ component('details', 'Details') }}
+{% endblock %}
